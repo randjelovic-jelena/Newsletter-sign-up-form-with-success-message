@@ -30,7 +30,7 @@ const setErrorMessage=(message)=>{
         userEmail.classList.remove('error');
         errorMessageSpan.innerText='';
         reset();
-    },3000);
+    },2500);
 }
 const validateEmail=()=>{
     let enteredEmail=userEmail.value;
